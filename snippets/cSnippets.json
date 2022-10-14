@@ -1,0 +1,30 @@
+{
+    "Main Boilerplate":{
+		"prefix": "mainBoilerPlate",
+		"body": [
+            "/* INCLUDES */",
+            "#include <stdio.h>",
+            "#include <stdlib.h>",
+            "${1}",
+            "",
+            "/* DEFINES */",
+            "${2}",
+            "/* TYPEDEFS */",
+            "${3}",
+            "/* GLOBAL VARIABLE DECLARATIONS */",
+            "${4}",
+            "/* FUNCTION PROTOTYPES */",
+            "${5}",
+            "",
+            "/*  MAIN FUNCTION   */",
+            "int main(int argc, char *argv[]){",
+            "    ${6}",
+            "    return 0;",
+            "}",
+            "",
+            "/*  FUNCTION DECLARATIONS   */",
+            "${7}"
+		],
+		"description": "Create Main function Boilerplate"
+	}
+}

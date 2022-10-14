@@ -1,0 +1,29 @@
+{
+	"SELECTQuery":{
+		"prefix": "selectSql",
+		"body": [
+			"SELECT * FROM ${1} WHERE ${2} ;",
+			"${0}"
+		],
+		"description": "Select SQL query"
+	},
+    
+    "mySQL query": {
+        "prefix": "mySqlCall",
+        "body":[
+            "\\$sql = \"${1}\";",
+            "",
+            "if( \\$result = mysqli_query(\\$link, \\$sql) ){",
+            "    \\$data = array();",
+            "    foreach(\\$result as \\$row){",
+            "        \\$data[] = \\$row;",
+            "    }",
+            "    echo json_encode(\\$data);",
+            "}",
+            "else{",
+            "    die(\"Error: \".mysqli_error(\\$link));",
+            "}",
+            "${0}"
+        ]
+    }
+}

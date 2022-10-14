@@ -1,0 +1,43 @@
+{
+  "name": "konstantinos-vs-extension",
+  "displayName": "Konstantinos VS Extension",
+  "description": "A set of tools for my coding needs",
+  "version": "0.0.1",
+  "publisher": "kotsiossp97",
+  "icon": "icon.png",
+	"homepage": "https://github.com/kotsiossp97/Konstantinos-VSCode-Extension",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "keywords": [
+    "konstantinos",
+    "snippets"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotsiossp97/Konstantinos-VSCode-Extension.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/jsSnippets.json"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/cSnippets.json"
+      },
+      {
+        "language": "sql",
+        "path": "./snippets/sqlSnippets.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/phpSnippets.json"
+      }
+    ] 
+  }
+}
