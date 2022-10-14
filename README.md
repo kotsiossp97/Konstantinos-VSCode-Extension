@@ -1,4 +1,5 @@
-# konstantinos-vs-extension README
+# Konstantinos VSCode Extension
+# README
 
 A set of snippets for various languages
 
@@ -7,9 +8,10 @@ Languages:
 * JavaScript
 * PHP
 * C
+* SQL
 
 ## Release Notes
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of extension
