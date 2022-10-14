@@ -4,9 +4,9 @@ A set of snippets for various languages
 
 ## Features
 Languages:
-### JavaScript
-### PHP
-### C
+* JavaScript
+* PHP
+* C
 
 ## Release Notes
 
